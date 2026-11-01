@@ -1,0 +1,4 @@
+claim_id,entity,claim_text,statuses,distinct_publishers,independent_support_publishers
+person-01,Mira Vale,Mira Vale chaired the fictional International Water Forum in 2025.,supporting sources; conflicting sources,2,1
+org-01,Northstar Civic Lab,Northstar Civic Lab published a multilingual water research series.,unreviewed; partial; supporting sources,3,0
+org-02,Northstar Civic Lab,Northstar Civic Lab operates offices on three continents.,missing evidence,0,0

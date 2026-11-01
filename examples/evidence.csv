@@ -1,0 +1,7 @@
+evidence_id,claim_id,source_url,publisher,published_on,accessed_on,relationship,support_status,review_note
+p-01,person-01,https://example.org/forum-program,World Civic Review,2025-12-01,2026-10-10,independent,supports,Fictional human review: program names Mira as chair.
+p-02,person-01,https://example.net/correction,Global Forum Journal,2026-01-02,2026-10-11,independent,contradicts,Fictional human review: correction names a different chair. Resolve before reuse.
+p-03,person-01,https://example.org/forum-summary, world civic review ,2025-12-02,2026-10-10,independent,supports,Same fictional publisher as p-01; no additional publisher count.
+o-01,org-01,https://example.com/lab-series,Northstar Civic Lab,2026-01-01,2026-01-05,owned,supports,Fictional human review: series index is on the organization's own site.
+o-02,org-01,https://example.net/research-brief,Research Exchange,2026-02-01,,unknown,partial,Fictional human review: brief mentions research but not all language editions. Access date not recorded.
+o-03,org-01,https://example.org/research-list,World Civic Review,2026-03-01,2026-10-20,independent,unreviewed,Fictional URL inventory only; content not reviewed.

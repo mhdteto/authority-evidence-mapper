@@ -1,0 +1,123 @@
+{
+  "as_of": "2026-11-01",
+  "stale_days": 180,
+  "limitation": "Relationship and support labels are human declarations, not verified facts. A URL is not verification. Review age does not establish evidence validity. This offline report makes no credibility, authority, or ranking judgment.",
+  "claims": [
+    {
+      "claim_id": "person-01",
+      "entity": "Mira Vale",
+      "claim_text": "Mira Vale chaired the fictional International Water Forum in 2025.",
+      "evidence": [
+        {
+          "evidence_id": "p-01",
+          "claim_id": "person-01",
+          "source_url": "https://example.org/forum-program",
+          "publisher": "World Civic Review",
+          "published_on": "2025-12-01",
+          "accessed_on": "2026-10-10",
+          "relationship": "independent",
+          "support_status": "supports",
+          "review_note": "Fictional human review: program names Mira as chair.",
+          "review_age_days": 22,
+          "review_age": "within threshold"
+        },
+        {
+          "evidence_id": "p-02",
+          "claim_id": "person-01",
+          "source_url": "https://example.net/correction",
+          "publisher": "Global Forum Journal",
+          "published_on": "2026-01-02",
+          "accessed_on": "2026-10-11",
+          "relationship": "independent",
+          "support_status": "contradicts",
+          "review_note": "Fictional human review: correction names a different chair. Resolve before reuse.",
+          "review_age_days": 21,
+          "review_age": "within threshold"
+        },
+        {
+          "evidence_id": "p-03",
+          "claim_id": "person-01",
+          "source_url": "https://example.org/forum-summary",
+          "publisher": "world civic review",
+          "published_on": "2025-12-02",
+          "accessed_on": "2026-10-10",
+          "relationship": "independent",
+          "support_status": "supports",
+          "review_note": "Same fictional publisher as p-01; no additional publisher count.",
+          "review_age_days": 22,
+          "review_age": "within threshold"
+        }
+      ],
+      "statuses": [
+        "supporting sources",
+        "conflicting sources"
+      ],
+      "distinct_publishers": 2,
+      "independent_support_publishers": 1
+    },
+    {
+      "claim_id": "org-01",
+      "entity": "Northstar Civic Lab",
+      "claim_text": "Northstar Civic Lab published a multilingual water research series.",
+      "evidence": [
+        {
+          "evidence_id": "o-01",
+          "claim_id": "org-01",
+          "source_url": "https://example.com/lab-series",
+          "publisher": "Northstar Civic Lab",
+          "published_on": "2026-01-01",
+          "accessed_on": "2026-01-05",
+          "relationship": "owned",
+          "support_status": "supports",
+          "review_note": "Fictional human review: series index is on the organization's own site.",
+          "review_age_days": 300,
+          "review_age": "stale"
+        },
+        {
+          "evidence_id": "o-02",
+          "claim_id": "org-01",
+          "source_url": "https://example.net/research-brief",
+          "publisher": "Research Exchange",
+          "published_on": "2026-02-01",
+          "accessed_on": "",
+          "relationship": "unknown",
+          "support_status": "partial",
+          "review_note": "Fictional human review: brief mentions research but not all language editions. Access date not recorded.",
+          "review_age_days": null,
+          "review_age": "unknown"
+        },
+        {
+          "evidence_id": "o-03",
+          "claim_id": "org-01",
+          "source_url": "https://example.org/research-list",
+          "publisher": "World Civic Review",
+          "published_on": "2026-03-01",
+          "accessed_on": "2026-10-20",
+          "relationship": "independent",
+          "support_status": "unreviewed",
+          "review_note": "Fictional URL inventory only; content not reviewed.",
+          "review_age_days": 12,
+          "review_age": "within threshold"
+        }
+      ],
+      "statuses": [
+        "unreviewed",
+        "partial",
+        "supporting sources"
+      ],
+      "distinct_publishers": 3,
+      "independent_support_publishers": 0
+    },
+    {
+      "claim_id": "org-02",
+      "entity": "Northstar Civic Lab",
+      "claim_text": "Northstar Civic Lab operates offices on three continents.",
+      "evidence": [],
+      "statuses": [
+        "missing evidence"
+      ],
+      "distinct_publishers": 0,
+      "independent_support_publishers": 0
+    }
+  ]
+}
