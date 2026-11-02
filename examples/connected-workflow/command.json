@@ -1,0 +1,13 @@
+{
+  "args": [
+    "map_evidence.py",
+    "--claims",
+    "examples/connected-workflow/inputs/claims.csv",
+    "--evidence",
+    "examples/connected-workflow/inputs/evidence.csv",
+    "--as-of",
+    "2026-11-01",
+    "--output-dir",
+    "OUTPUT"
+  ]
+}

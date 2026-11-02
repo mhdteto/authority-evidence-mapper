@@ -2,6 +2,10 @@
 
 # Authority Evidence Mapper
 
+[![Validation](https://github.com/mhdteto/authority-evidence-mapper/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/mhdteto/authority-evidence-mapper/actions/workflows/tests.yml)
+![Python CI](https://img.shields.io/badge/Python%20CI-3.10%20%7C%203.13-36d9ee?labelColor=081321)
+
+
 An offline, installation-free Python CLI for mapping claims to supplied evidence reviews. See supporting and contrary evidence together, identify review gaps, and count distinct publishers without counting repeat articles as additional publishers.
 
 **A source URL is never verification.** Relationships and support labels are declarations supplied by a human reviewer. This tool neither reads the sources nor decides whether a claim is true. It produces no authority score or ranking prediction.
@@ -12,6 +16,21 @@ An offline, installation-free Python CLI for mapping claims to supplied evidence
   <a href="https://mohammedteto.com/method/"><img src=".github/readme-assets/method.svg" width="148" height="36" alt="The method" /></a>
   <a href="https://mohammedteto.com/research/"><img src=".github/readme-assets/research.svg" width="148" height="36" alt="Research" /></a>
 </p>
+
+<!-- suite-navigation -->
+## Start here: this repository in the workflow
+
+**Your task:** Organize human evidence reviews, including contradictions.
+
+[Method →](https://github.com/mhdteto/authority-architecture-system) · [Audit →](https://github.com/mhdteto/search-ai-discoverability-checker) · [Structure →](https://github.com/mhdteto/entity-structured-data-kit) · [Measure →](https://github.com/mhdteto/ai-citation-tracker)
+
+**Next step:** [entity-structured-data-kit](https://github.com/mhdteto/entity-structured-data-kit) — Model only approved, visibly supported identity and publication information.
+
+**Try it:** [complete fictional workflow](https://github.com/mhdteto/authority-architecture-system/tree/main/examples/fictional-workflow) · [this tool’s inputs, command and expected output](examples/connected-workflow/README.md). All scenario records and engine answers are invented; generated reports are real CLI output.
+
+**Python CI:** 3.10 / 3.13. The badge links to the real workflow; it describes automated checks, not ranking, factual accuracy or AI visibility.
+[Map of all eight resources](https://github.com/mhdteto/authority-architecture-system/blob/main/docs/tool-map.md) · [Open an issue](https://github.com/mhdteto/authority-evidence-mapper/issues/new/choose)
+<!-- /suite-navigation -->
 
 ## Quick start
 
